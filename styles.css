@@ -88,9 +88,17 @@ body {
 
 .info-container {
     display: flex;
+    
 }
 
 .icon {
     height: 50px;
     width: 50px;
+}
+
+.info-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
