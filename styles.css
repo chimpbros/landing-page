@@ -68,7 +68,7 @@ body {
     width: 480px;
 }
 
-.main-text button {
+button {
     padding: 10px 30px;
     background-color: #3882f6;
     border: none;
@@ -128,4 +128,46 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.quote-src {
+    font-weight: bold;
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.call-container {
+    background-color: #3882f6;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    flex-basis: 1000px;
+    border-radius: 10px;
+}
+
+.call-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-desc {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-text {
+    max-width: 500px;
+}
+
+.call-container button {
+    border: 2px solid #f9faf8;
+    padding: 10px 30px;
+    align-self: center;
 }
